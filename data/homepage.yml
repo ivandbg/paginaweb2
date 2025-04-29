@@ -4,56 +4,24 @@ head:
 # showcase
 showcase:
   enable: true
-  title: "soy Ivan, un ingeniero electronico."
-  subtitle: "Que es un ingeniero electronico?"
-  description: "es una personaje que se dedica al: Diseño de circuitos electrónicos, Desarrollo de dispositivos electrónicos, Sistemas de control, Telecomunicaciones, Instrumentación electronica"
+  title: "Soy Ivan, un ingeniero electrónico."
+  subtitle: "¿Qué es un ingeniero electrónico?"
+  description: "Es una persona que se dedica al: Diseño de circuitos electrónicos, Desarrollo de dispositivos electrónicos, Sistemas de control, Telecomunicaciones, Instrumentación electrónica."
   image:
     x: "img/showcase/ingenieroelec.jpg"
     _2x: "img/showcase/ingenieroelec.jpg"
   imageMobile:
     x: "img/showcase/ingenieroelec.jpg"
     _2x: "img/showcase/ingenieroelec.jpg"
-
   button:
     icon: "icon-mail-fill"
-    btnText: "Contactame"
-    URL: "ivanhola0509@gmail.com"
-
-  #socialLinks:
-    #- icon: "linkedin"
-     # URL: "https://www.linkedin.com"
-
-    #- icon: "github"
-     # URL: "https://github.com"
-
-    #- icon: "twitter"
-     # URL: "https://twitter.com"
-
-   # - icon: "dribbble"
-    #  URL: "https://dribbble.com"
-
-   # - icon: "behance"
-    # URL: "https://www.behance.net"
-
-   # - icon: "youtube"
-     # URL: "https://www.youtube.com"
-
-   # - icon: "instagram"
-   #   URL: "https://www.instagram.com"
-
-    #- icon: "facebook"
-     # URL: "https://www.facebook.com"
-
-    #- icon: "codepen"
-     # URL: "#"
-
-    #- icon: "yelp"
-    #  URL: "https://www.yelp.com/"
+    btnText: "Contáctame"
+    URL: "mailto:ivanhola0509@gmail.com"
 
 # about
 about:
   enable: true
-  title: "Quien soy?"
+  title: "¿Quién soy?"
   content: 
     <p class="lead">
     Soy estudiante de Ingeniería Electrónica, apasionado por el mundo de la automatización y el desarrollo de circuitos electrónicos. Desde el inicio de mi formación he mantenido un interés constante en todo lo relacionado con la tecnología, lo que me ha permitido desarrollar habilidades en diversas áreas técnicas. Me entusiasma crear soluciones que optimicen procesos y contribuir a proyectos innovadores mediante el diseño y la implementación de sistemas electrónicos eficientes. 
@@ -61,10 +29,6 @@ about:
     <p class="lead">
     Me considero una persona perseverante, tolerante y enfocada en alcanzar los objetivos que me propongo. Disfruto del trabajo en equipo, ya que creo que la colaboración potencia los resultados y fortalece las ideas. Cuando me involucro en un proyecto, pongo todo mi esfuerzo y dedicación para lograr el mejor resultado posible, buscando siempre aprender y mejorar en el camino.
     </p>
-  button:
-    icon: "icon-smile-fill"
-    btnText: "sobre mi"
-    URL: "www.linkedin.com/in/ivan-dario-bolaño-granados-b5362b362"
   image:
     x: "img/who-am-i/usuario-foto.jfif"
     _2x: "img/who-am-i/usuario-foto.jfif"
@@ -72,169 +36,61 @@ about:
 # experience
 experience:
   enable: true
-  title: "Experience"
-  description: "Over 15+ years of experience working with companies from all over the world. I design & develop data science products to help businesses increase profitability and improve customer experience."
-  button:
-    icon: "icon-linkedin-fill"
-    btnText: "Linkedin"
-    URL: "https://www.linkedin.com/"
-  button2:
-    icon: "icon-profile-fill"
-    btnText: "Download My Resume"
-    URL: "#"
-
-  items:
-    - title: "Director of Product Engineering & Market Development"
-      company: "Bonney Forge"
-      duration: "Jan 2017 - Aug 2018"
-
-    - title: "Manager of Sales Engineering"
-      company: "Bonney Forge"
-      duration: "Mar 2014 - Jan 2017"
-
-    - title: "Manager of Product Engineering"
-      company: "Bonney Forge"
-      duration: "Nov 2011 - Mar 2014"
+  title: "Experiencia"
+  description: |
+    Actualmente llevo cinco años en formación como estudiante de Ingeniería Electrónica, durante los cuales he adquirido experiencia en áreas como la automatización, el diseño de sistemas de control, el procesamiento de señales y el desarrollo de circuitos electrónicos. A través de proyectos como el control de un sistema Ball and Beam y el uso de electromiografía para la regulación de servomotores, he puesto en práctica mis conocimientos técnicos y habilidades para resolver problemas reales.
 
 # education
 education:
   enable: true
-  title: "Education"
+  title: "Educación"
   items:
-    - university: "Penn State University"
-      year: "2014-2015"
-      degree: "Master of Business Administration (MBA)"
+    - university: "Universidad del Magdalena"
+      year: "2025"
+      degree: "Ingeniería Electrónica (cursando)"
 
-    - university: "University of Pittsburgh"
-      year: "2008-2010"
-      degree: "Master of Industrial Engineering"
-      
-    - university: "Penn State University"
-      year: "2002-2006"
-      degree: "Bachelor of Mechanical Engineering"
+    - university: "Universidad del Magdalena"
+      year: "2020-2022"
+      degree: "B1 Preliminary English"
 
-
-
-# Client & Work
+# client and work (portafolio)
 client_and_work:
-  title: "Portfolio"
+  title: "Portafolio"
   enable: true
-  
   enable_clients: false
-  clients:
-    - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
-
-    - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
-
-    - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Goldline"
-
-    - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Kanba"
-
-    - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
-
-    - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
-
   works:
-    - title: "Sales Demand Forecast Application"
-      description: "This application helps Marketing & Sales identify trends in product demand. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "https://business-science.shinyapps.io/sales_dashboard_demand_forecast/"
+    - title: "Control PID y P&O en sistema Ball and Beam"
+      description: "Diseño e implementación de un sistema de control basado en PID y Perturb and Observe (P&O) aplicado a una planta Ball and Beam, con el objetivo de estabilizar dinámicamente la posición de la bola sobre la viga ante perturbaciones externas."
       image:
-        x: "img/works/app_sales_demand_forecast.jpg"
-        _2x: "img/works/app_sales_demand_forecast.jpg"
-      is_even: true
+        x: "img/works/ball.jfif"
+        _2x: "img/works/ball.jfif"
+      URL: "#"
 
-    - title: "Product Price Recommendation"
-      description: "This application helps Marketing & R&D Teams determine product gaps and price new products to fill the gaps using machine learning. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "https://business-science.shinyapps.io/cannondale_price_prediction_app/"
+    - title: "Control de servomotor con señales EMG"
+      description: "Desarrollo de un sistema que regula la velocidad de un servomotor mediante señales electromiográficas captadas desde el antebrazo, demostrando una aplicación funcional de bioseñales en el control mecatrónico."
       image:
-        x: "img/works/app_cannondale_price_prediction.jpg"
-        _2x: "img/works/app_cannondale_price_prediction.jpg"
-      is_even: false
-
-    
-
-# testimonial
-testimonial:
+        x: "img/works/emg-servomotor.webp"
+        _2x: "img/works/emg-servomotor.webp"
+      URL: "#"
+      
+    # contact info (hecho como sección normal)
+contact_info:
   enable: true
-  title: "Testimonials"
-  items:
-  
-    - name: "Justin Kurland, PhD"
-      position: "Lead Data Scientist, Northwestern Mutual"
-      content: "In less than 6 months after starting my first Business Science Course with Matt I had fully transitioned into a role as a lead data scientist and my life is better for it!"
-      image:
-        x: "img/testimonials/justin.jpg"
-        _2x: "img/testimonials/justin.jpg"
-        
-    - name: "Chris Selig"
-      position: "Data Scientist"
-      content: "Because of all the R courses Matt Dancho has provided, I landed my first Data Scientist role. Setting up shiny dashboards in AWS was extremely helpful during my interview."
-      image:
-        x: "img/testimonials/chris.jpg"
-        _2x: "img/testimonials/chris.jpg"
+  title: "Contáctame"
+  content: |
+    Puedes comunicarte conmigo a través de los siguientes medios:
 
-    
-
-    - name: "Mohana Krishna Chittoor"
-      position: "Lead Data Scientist, Money View"
-      content: "After your entry into my life, I got a 10% pay raise and then after another 6-months of 26%, and in just another 2-months a 40% hike. I can grab a job wherever I want."
-      image:
-        x: "img/testimonials/mohana.jpg"
-        _2x: "img/testimonials/mohana.jpg"
-
-# contact
-contact:
-  enable: true
-  title: "Contact Matt"
-    
-  image:
-    x: "img/who-am-i/user-picture-2.jpg"
-    _2x: "img/who-am-i/user-picture-2.jpg"
-    
-  button:
-    icon: "icon-mail-fill"
-    btnText: "Send Message"
-    btnAction: 'mailto:your-email@gmail.com'
-    
-  phone:
-    title: "Phone Number"
-    number: "--"
-  email:
-    title: "Email"
-    email: '<a href="mailto:your-email@gmail.com">your-email@gmail.com</a>'
-  address:
-    title: "Address"
-    address: "--"
+    📧 **Correo:** [ivanhola0509@gmail.com](mailto:ivanhola0509@gmail.com)  
+    📞 **Teléfono:** +57 300 789 0286
   
 
-# newsletter
-newsletter:
-  enable: false
-  title: "Newsletter subscription"
-  success_message: "Successfully subscribed"
-  error_message: "Error while subscribing."
-  note: "We'll never share your email with anyone else."
+
+
+
+
+
+
+    
+
+
+
